@@ -1,0 +1,141 @@
+% Professional Resume Template
+\documentclass[11pt,letterpaper]{article}
+\usepackage[empty]{fullpage}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{enumitem}
+\usepackage{tabularx}
+
+\geometry{letterpaper,margin=1in}
+
+% Define colors
+\definecolor{primary}{HTML}{2563EB}
+\definecolor{darkgray}{HTML}{333333}
+\definecolor{gray}{HTML}{4D4D4D}
+\definecolor{lightgray}{HTML}{999999}
+
+% Configure hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    urlcolor=primary,
+    pdftitle={Resume - {{firstName}} {{lastName}}},
+    pdfauthor={{{firstName}} {{lastName}}},
+    pdfsubject={Resume},
+    pdfkeywords={resume, {{firstName}} {{lastName}}, {{title}}}
+}
+
+% Format section headers
+\titleformat{\section}
+  {\Large\scshape\raggedright\color{primary}}
+  {}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{8pt}
+
+% Format subsection headers
+\titleformat{\subsection}
+  {\large\bfseries\raggedright\color{darkgray}}
+  {}{0em}{}
+\titlespacing*{\subsection}{0pt}{8pt}{4pt}
+
+% Custom commands for contact info
+\newcommand{\contactItem}[2]{
+  \textcolor{gray}{\small#1} & \textcolor{darkgray}{\small#2} \\
+}
+
+% Custom command for job/education entries
+\newcommand{\resumeEntry}[4]{
+  \textbf{#1} & \textbf{\textcolor{primary}{#2}} \\
+  \textit{#3} & \textit{#4} \\
+}
+
+% Custom command for skills
+\newcommand{\skill}[1]{
+  \textbf{#1}
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+  {\Huge\textbf{\textcolor{darkgray}{{{firstName}} {{lastName}}}}}\\
+  \vspace{4pt}
+  {\large\textcolor{gray}{{{title}}}}\\
+  \vspace{8pt}
+\end{center}
+
+% Contact Information
+\begin{center}
+  \begin{tabular}{rl rl rl}
+    \contactItem{\faEnvelope}{{{email}}} & \contactItem{\faPhone}{{{phone}}} & \contactItem{\faMapMarker}{{{city}}, {{state}}} \\
+    \ifdefempty{{{linkedin}}}{}{\contactItem{\faLinkedin}{{{linkedin}}}} & 
+    \ifdefempty{{{github}}}{}{\contactItem{\faGithub}{{{github}}}} & 
+    \ifdefempty{{{website}}}{}{\contactItem{\faGlobe}{{{website}}}}
+  \end{tabular}
+\end{center}
+
+% Summary
+\section{Professional Summary}
+{{summary}}
+
+% Experience
+\section{Experience}
+\begin{tabularx}{\textwidth}{X r}
+  {{#each experience}}
+  \resumeEntry{{{company}}}{{{position}}}{{{location}}}{{{startDate}} -- {{endDate}}}
+  \multicolumn{2}{X}{{{description}}}
+  \begin{itemize}[leftmargin=*]
+    {{#each achievements}}
+    \item {{this}}
+    {{/each}}
+  \end{itemize}
+  {{#unless @last}}\vspace{4pt}{{/unless}}
+  {{/each}}
+\end{tabularx}
+
+% Education
+\section{Education}
+\begin{tabularx}{\textwidth}{X r}
+  {{#each education}}
+  \resumeEntry{{{institution}}}{{{degree}} in {{field}}}{{{location}}}{{{startDate}} -- {{endDate}}}
+  {{#if gpa}}
+  \multicolumn{2}{X}{GPA: {{gpa}}}
+  {{/if}}
+  {{#if achievements.length}}
+  \begin{itemize}[leftmargin=*]
+    {{#each achievements}}
+    \item {{this}}
+    {{/each}}
+  \end{itemize}
+  {{/if}}
+  {{#unless @last}}\vspace{4pt}{{/unless}}
+  {{/each}}
+\end{tabularx}
+
+% Skills
+\section{Skills}
+{{#each skillsByCategory}}
+\subsection{{{category}}}
+{{#each skills}}
+\skill{{{name}}}{{#unless @last}} \textbullet{{/unless}}
+{{/each}}
+{{#unless @last}}\vspace{4pt}{{/unless}}
+{{/each}}
+
+% Projects
+\section{Projects}
+{{#each projects}}
+\subsection{{{name}}{{#if url}} \normalfont\small\textcolor{primary}{\href{{{url}}}{[Link]}}{{/if}}}
+{{description}}
+\begin{itemize}[leftmargin=*]
+  {{#each achievements}}
+  \item {{this}}
+  {{/each}}
+\end{itemize}
+\textit{Technologies:} {{technologies}}
+{{#unless @last}}\vspace{4pt}{{/unless}}
+{{/each}}
+
+\end{document}

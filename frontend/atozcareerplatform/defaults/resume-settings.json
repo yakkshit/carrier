@@ -1,0 +1,35 @@
+{
+  "layout": {
+    "template": "professional",
+    "color": "#2563eb",
+    "font": "Roboto",
+    "fontSize": "11pt",
+    "margins": {
+      "top": 1,
+      "right": 1,
+      "bottom": 1,
+      "left": 1
+    },
+    "lineSpacing": "1.15",
+    "pageSize": "letter",
+    "sections": [
+      { "id": "personal", "name": "Personal Information", "page": 1, "visible": true },
+      { "id": "summary", "name": "Professional Summary", "page": 1, "visible": true },
+      { "id": "experience", "name": "Experience", "page": 1, "visible": true },
+      { "id": "education", "name": "Education", "page": 1, "visible": true },
+      { "id": "skills", "name": "Skills", "page": 1, "visible": true },
+      { "id": "projects", "name": "Projects", "page": 1, "visible": true }
+    ],
+    "pages": 1
+  },
+  "export": {
+    "format": "pdf",
+    "quality": "high",
+    "includeLinks": true
+  },
+  "ai": {
+    "model": "gpt-4",
+    "tailoring": true,
+    "suggestions": true
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "personalInfo": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "title": "Senior Software Engineer",
+    "email": "john.doe@example.com",
+    "phone": "(123) 456-7890",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "linkedin": "linkedin.com/in/johndoe",
+    "github": "github.com/johndoe",
+    "website": "johndoe.com",
+    "summary": "Experienced software engineer with 5+ years of expertise in full-stack development, specializing in React, Node.js, and cloud technologies. Proven track record of delivering scalable solutions and optimizing application performance."
+  },
+  "education": [
+    {
+      "institution": "Massachusetts Institute of Technology",
+      "degree": "Master of Science",
+      "field": "Computer Science",
+      "location": "Cambridge, MA",
+      "startDate": "2016",
+      "endDate": "2018",
+      "gpa": "3.9",
+      "achievements": [
+        "Thesis: 'Optimizing Neural Networks for Edge Computing'",
+        "Teaching Assistant for Algorithms and Data Structures"
+      ]
+    },
+    {
+      "institution": "University of California, Berkeley",
+      "degree": "Bachelor of Science",
+      "field": "Software Engineering",
+      "location": "Berkeley, CA",
+      "startDate": "2012",
+      "endDate": "2016",
+      "gpa": "3.8",
+      "achievements": ["Dean's List all semesters", "Capstone Project: Distributed File System"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Tech Innovations Inc.",
+      "position": "Senior Software Engineer",
+      "location": "San Francisco, CA",
+      "startDate": "2021-01",
+      "endDate": "Present",
+      "description": "Lead developer for enterprise SaaS platform serving 500+ clients.",
+      "achievements": [
+        "Led the development of a microservices architecture that improved system reliability by 40%.",
+        "Implemented CI/CD pipelines reducing deployment time from hours to minutes.",
+        "Mentored junior developers and conducted code reviews to ensure code quality."
+      ]
+    },
+    {
+      "company": "Digital Solutions LLC",
+      "position": "Software Developer",
+      "location": "Boston, MA",
+      "startDate": "2018-03",
+      "endDate": "2020-12",
+      "description": "Full-stack developer for customer-facing web applications.",
+      "achievements": [
+        "Developed responsive web applications using React and Redux.",
+        "Optimized database queries resulting in 30% faster application performance.",
+        "Collaborated with UX designers to implement intuitive user interfaces."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "Expert",
+      "category": "Programming Languages"
+    },
+    {
+      "name": "TypeScript",
+      "level": "Expert",
+      "category": "Programming Languages"
+    },
+    {
+      "name": "Python",
+      "level": "Advanced",
+      "category": "Programming Languages"
+    },
+    {
+      "name": "React",
+      "level": "Expert",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Node.js",
+      "level": "Expert",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Express",
+      "level": "Advanced",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Next.js",
+      "level": "Advanced",
+      "category": "Frameworks"
+    },
+    {
+      "name": "AWS",
+      "level": "Advanced",
+      "category": "Cloud"
+    },
+    {
+      "name": "Docker",
+      "level": "Advanced",
+      "category": "DevOps"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "Intermediate",
+      "category": "DevOps"
+    },
+    {
+      "name": "CI/CD",
+      "level": "Advanced",
+      "category": "DevOps"
+    },
+    {
+      "name": "GraphQL",
+      "level": "Advanced",
+      "category": "API"
+    },
+    {
+      "name": "Team Leadership",
+      "level": "Advanced",
+      "category": "Soft Skills"
+    },
+    {
+      "name": "Problem Solving",
+      "level": "Expert",
+      "category": "Soft Skills"
+    },
+    {
+      "name": "Technical Communication",
+      "level": "Advanced",
+      "category": "Soft Skills"
+    },
+    {
+      "name": "Agile Methodologies",
+      "level": "Advanced",
+      "category": "Soft Skills"
+    }
+  ],
+  "projects": [
+    {
+      "name": "E-commerce Platform",
+      "description": "Developed a full-stack e-commerce solution with React, Node.js, and MongoDB",
+      "startDate": "2020-06",
+      "endDate": "2020-12",
+      "url": "https://github.com/johndoe/ecommerce",
+      "technologies": ["React", "Node.js", "Express", "MongoDB", "Redux", "AWS"],
+      "achievements": [
+        "Implemented secure payment processing with Stripe",
+        "Built responsive UI that works across all devices",
+        "Integrated inventory management system"
+      ]
+    },
+    {
+      "name": "AI Recommendation Engine",
+      "description": "Built a machine learning model to provide personalized product recommendations",
+      "startDate": "2019-03",
+      "endDate": "2019-09",
+      "url": "https://github.com/johndoe/recommender",
+      "technologies": ["Python", "TensorFlow", "Flask", "AWS Lambda", "Docker"],
+      "achievements": [
+        "Achieved 35% improvement in recommendation relevance",
+        "Deployed as microservice using Docker and AWS",
+        "Processed over 1M user interactions daily"
+      ]
+    },
+    {
+      "name": "Open Source Contribution",
+      "description": "Active contributor to several open-source projects in the JavaScript ecosystem",
+      "startDate": "2018",
+      "endDate": "Present",
+      "url": "https://github.com/johndoe",
+      "technologies": ["JavaScript", "TypeScript", "React", "Node.js"],
+      "achievements": [
+        "Contributed to React ecosystem libraries",
+        "Fixed critical bugs in popular npm packages",
+        "Created developer tools to improve workflow"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "issuer": "Amazon Web Services",
+      "date": "2021-05",
+      "url": "credential.net/aws-cert-12345"
+    },
+    {
+      "name": "Professional Scrum Master I",
+      "issuer": "Scrum.org",
+      "date": "2019-11",
+      "url": "scrum.org/certificates/psmI-12345"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Native"
+    },
+    {
+      "name": "Spanish",
+      "proficiency": "Professional Working"
+    },
+    {
+      "name": "French",
+      "proficiency": "Limited Working"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Optimizing React Applications for Performance",
+      "publisher": "Medium - JavaScript in Plain English",
+      "date": "2022-03",
+      "url": "medium.com/javascript-in-plain-english/optimizing-react",
+      "authors": ["John Doe", "Jane Smith"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Innovation Award",
+      "issuer": "Tech Innovations Inc.",
+      "date": "2021-12",
+      "description": "Awarded for developing a novel approach to data processing that improved system efficiency by 50%."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Code for America",
+      "role": "Volunteer Developer",
+      "startDate": "2018-01",
+      "endDate": "Present",
+      "description": "Contribute to open-source projects that help local governments better serve their communities.",
+      "achievements": [
+        "Developed a mobile app for reporting local infrastructure issues",
+        "Mentored coding bootcamp graduates"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Sarah Johnson",
+      "position": "Engineering Director",
+      "company": "Tech Innovations Inc.",
+      "email": "sarah.johnson@example.com",
+      "relationship": "Direct Manager"
+    },
+    {
+      "name": "Michael Chen",
+      "position": "CTO",
+      "company": "DataViz Solutions",
+      "email": "michael.chen@example.com",
+      "relationship": "Former Manager"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "professional",
+    "name": "Professional",
+    "description": "Clean and traditional layout for corporate environments",
+    "thumbnail": "/templates/resume/thumbnails/professional.png",
+    "tags": ["professional", "corporate", "traditional"]
+  },
+  {
+    "id": "modern",
+    "name": "Modern",
+    "description": "Contemporary design with a clean, minimal aesthetic",
+    "thumbnail": "/templates/resume/thumbnails/modern.png",
+    "tags": ["modern", "clean", "minimal"]
+  },
+  {
+    "id": "creative",
+    "name": "Creative",
+    "description": "Bold design for creative industries and roles",
+    "thumbnail": "/templates/resume/thumbnails/creative.png",
+    "tags": ["creative", "bold", "design"]
+  },
+  {
+    "id": "executive",
+    "name": "Executive",
+    "description": "Sophisticated layout for senior positions",
+    "thumbnail": "/templates/resume/thumbnails/executive.png",
+    "tags": ["professional", "executive", "leadership"]
+  },
+  {
+    "id": "minimal",
+    "name": "Minimal",
+    "description": "Simple and clean design with focus on content",
+    "thumbnail": "/templates/resume/thumbnails/minimal.png",
+    "tags": ["minimal", "clean", "simple"]
+  },
+  {
+    "id": "academic",
+    "name": "Academic",
+    "description": "Detailed layout for academic and research positions",
+    "thumbnail": "/templates/resume/thumbnails/academic.png",
+    "tags": ["academic", "research", "detailed"]
+  }
+]

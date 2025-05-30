@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "title": "AtoZ AI Platform",
+    "description": "A comprehensive AI-powered career management platform"
+  },
+  "navigation": {
+    "home": "Home",
+    "features": "Features",
+    "about": "About",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "signIn": "Sign In"
+  },
+  "hero": {
+    "updateNotification": "New update v.1.2.0 is live",
+    "title": "AI-Powered Career Guidance",
+    "description": "Leverage AI-powered tools to enhance your job search, track applications, and prepare for interviews.",
+    "primaryCta": "GET STARTED",
+    "secondaryCta": "TRY FREE NOW"
+  },
+  "dashboard": {
+    "greeting": "Hey Mariana - here's what's happening with your career today",
+    "stats": [
+      {
+        "title": "APPLICATIONS",
+        "value": "24",
+        "change": "+36%",
+        "up": true
+      },
+      {
+        "title": "INTERVIEWS",
+        "value": "8",
+        "change": "+14%",
+        "up": true
+      },
+      {
+        "title": "RESPONSES",
+        "value": "16",
+        "change": "+36%",
+        "up": true
+      },
+      {
+        "title": "OFFERS",
+        "value": "2",
+        "change": "+100%",
+        "up": true
+      }
+    ],
+    "trafficSources": [
+      {
+        "source": "LinkedIn",
+        "value": "14",
+        "percentage": 70
+      },
+      {
+        "source": "Indeed",
+        "value": "8",
+        "percentage": 45
+      },
+      {
+        "source": "Company Sites",
+        "value": "5",
+        "percentage": 25
+      },
+      {
+        "source": "Referrals",
+        "value": "3",
+        "percentage": 15
+      }
+    ]
+  },
+  "trustedBy": {
+    "title": "People who trust and use the product seamlessly",
+    "companies": [
+      {
+        "name": "Appwrite",
+        "logo": "https://raw.githubusercontent.com/gilbarbara/logos/92bb74e98bca1ea1ad794442676ebc4e75038adc/logos/appwrite.svg"
+      },
+      {
+        "name": "Auth0",
+        "logo": "https://raw.githubusercontent.com/gilbarbara/logos/92bb74e98bca1ea1ad794442676ebc4e75038adc/logos/auth0-icon.svg"
+      },
+      {
+        "name": "Adobe",
+        "logo": "https://raw.githubusercontent.com/gilbarbara/logos/92bb74e98bca1ea1ad794442676ebc4e75038adc/logos/adobe-icon.svg"
+      },
+      {
+        "name": "Algolia",
+        "logo": "https://raw.githubusercontent.com/gilbarbara/logos/92bb74e98bca1ea1ad794442676ebc4e75038adc/logos/algolia.svg"
+      },
+      {
+        "name": "Asana",
+        "logo": "https://raw.githubusercontent.com/gilbarbara/logos/92bb74e98bca1ea1ad794442676ebc4e75038adc/logos/asana-icon.svg"
+      },
+      {
+        "name": "Atlassian",
+        "logo": "https://raw.githubusercontent.com/gilbarbara/logos/92bb74e98bca1ea1ad794442676ebc4e75038adc/logos/atlassian.svg"
+      },
+      {
+        "name": "Airbnb",
+        "logo": "https://raw.githubusercontent.com/gilbarbara/logos/92bb74e98bca1ea1ad794442676ebc4e75038adc/logos/airbnb-icon.svg"
+      },
+      {
+        "name": "Amplitude",
+        "logo": "https://raw.githubusercontent.com/gilbarbara/logos/92bb74e98bca1ad794442676ebc4e75038adc/logos/amplitude-icon.svg"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Our Platform",
+    "description": "Our AI-powered platform revolutionizes career management with cutting-edge technology and intuitive design.",
+    "features": [
+      {
+        "title": "AI Resume Builder",
+        "description": "Generate tailored resumes based on your profile and job descriptions"
+      },
+      {
+        "title": "Job Tracking",
+        "description": "Track applications with an automated Kanban board system"
+      },
+      {
+        "title": "Interview Prep",
+        "description": "AI-powered interview questions and preparation strategies"
+      },
+      {
+        "title": "Career Timeline",
+        "description": "Visualize your career journey and future opportunities"
+      }
+    ],
+    "featuresList": [
+      {
+        "title": "AI-Powered Resume & Cover Letter Generation",
+        "description": "Tailored resumes and cover letters based on your profile, job descriptions, and company specifics."
+      },
+      {
+        "title": "Job Tracking with Kanban Board",
+        "description": "Track applications from 'Applied' to 'Interview' and 'Decision' with an automated Kanban system."
+      },
+      {
+        "title": "Interview Preparation with AI",
+        "description": "AI predicts potential interview questions and suggests effective answers based on the job and your profile."
+      },
+      {
+        "title": "Post-Application Follow-up Tools",
+        "description": ""
+      },
+      {
+        "title": "Decision Analysis & Improvement Suggestions",
+        "description": ""
+      },
+      {
+        "title": "Comprehensive User Profile Management",
+        "description": ""
+      }
+    ],
+    "stats": [
+      {
+        "value": "99.9%",
+        "label": "Uptime"
+      },
+      {
+        "value": "10K+",
+        "label": "Active users"
+      },
+      {
+        "value": "24/7",
+        "label": "Support"
+      }
+    ],
+    "cta": "Learn more about our technology"
+  },
+  "workflow": {
+    "title": "How It Works",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Connect",
+        "description": "Create your profile and connect your existing resume and job preferences."
+      },
+      {
+        "number": "02",
+        "title": "Analyze",
+        "description": "Our AI analyzes your skills, experience, and career goals."
+      },
+      {
+        "number": "03",
+        "title": "Optimize",
+        "description": "Receive tailored resumes, cover letters, and interview preparation."
+      },
+      {
+        "number": "04",
+        "title": "Apply",
+        "description": "Apply to jobs with confidence and track your applications."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Pricing",
+    "heading": "Simple, Transparent",
+    "subheading": "Pricing",
+    "description": "Choose the plan that's right for you or your business",
+    "tabs": {
+      "individual": "For Individuals",
+      "business": "For Businesses"
+    },
+    "billing": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "discount": "Save 20%"
+    },
+    "billingPeriod": {
+      "monthly": "/month",
+      "annual": "/month, billed annually"
+    },
+    "popularLabel": "Most Popular",
+    "individual": [
+      {
+        "name": "Free",
+        "monthly": "0",
+        "annual": "0",
+        "description": "Basic tools for job seekers",
+        "features": [
+          { "included": true, "text": "AI Resume Builder (3 resumes)" },
+          { "included": true, "text": "Job Application Tracking" },
+          { "included": true, "text": "Basic Interview Preparation" },
+          { "included": false, "text": "Cover Letter Generation" },
+          { "included": false, "text": "Advanced AI Interview Prep" },
+          { "included": false, "text": "Priority Support" }
+        ],
+        "cta": "Get Started",
+        "popular": false,
+        "color": "from-gray-400 to-gray-600"
+      },
+      {
+        "name": "Pro",
+        "monthly": "15",
+        "annual": "12",
+        "period": true,
+        "description": "Everything you need for your job search",
+        "features": [
+          { "included": true, "text": "Unlimited AI Resumes" },
+          { "included": true, "text": "Advanced Job Tracking" },
+          { "included": true, "text": "Cover Letter Generation" },
+          { "included": true, "text": "Advanced AI Interview Prep" },
+          { "included": true, "text": "Career Timeline" },
+          { "included": true, "text": "Email & Chat Support" }
+        ],
+        "cta": "Get Started",
+        "popular": true,
+        "color": "from-purple-500 to-blue-500"
+      },
+      {
+        "name": "Premium",
+        "monthly": "39",
+        "annual": "29",
+        "period": true,
+        "description": "Premium features for serious job seekers",
+        "features": [
+          { "included": true, "text": "Everything in Pro" },
+          { "included": true, "text": "1-on-1 Career Coaching" },
+          { "included": true, "text": "Priority Application Boost" },
+          { "included": true, "text": "Salary Negotiation Tools" },
+          { "included": true, "text": "LinkedIn Profile Optimization" },
+          { "included": true, "text": "Priority 24/7 Support" }
+        ],
+        "cta": "Get Started",
+        "popular": false,
+        "color": "from-amber-400 to-orange-500"
+      }
+    ],
+    "business": [
+      {
+        "name": "Startup",
+        "price": "199",
+        "monthly": "249",
+        "annual": "199",
+        "period": true,
+        "description": "For small teams and startups",
+        "features": [
+          { "included": true, "text": "Up to 10 job postings" },
+          { "included": true, "text": "Basic API access" },
+          { "included": true, "text": "Candidate matching" },
+          { "included": true, "text": "Team collaboration tools" },
+          { "included": false, "text": "Advanced analytics" },
+          { "included": false, "text": "Custom integration" }
+        ],
+        "cta": "Contact Sales",
+        "popular": false,
+        "color": "from-blue-400 to-indigo-500"
+      },
+      {
+        "name": "Business",
+        "price": "499",
+        "monthly": "599",
+        "annual": "499",
+        "period": true,
+        "description": "For growing businesses",
+        "features": [
+          { "included": true, "text": "Up to 50 job postings" },
+          { "included": true, "text": "Full API access" },
+          { "included": true, "text": "Advanced candidate matching" },
+          { "included": true, "text": "Team collaboration tools" },
+          { "included": true, "text": "Advanced analytics" },
+          { "included": true, "text": "Priority support" }
+        ],
+        "cta": "Contact Sales",
+        "popular": true,
+        "color": "from-indigo-500 to-purple-500"
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "description": "For large organizations",
+        "features": [
+          { "included": true, "text": "Unlimited job postings" },
+          { "included": true, "text": "Enterprise API access" },
+          { "included": true, "text": "Custom candidate matching" },
+          { "included": true, "text": "Advanced team collaboration" },
+          { "included": true, "text": "Custom analytics & reporting" },
+          { "included": true, "text": "Dedicated account manager" }
+        ],
+        "cta": "Contact Sales",
+        "popular": false,
+        "color": "from-purple-500 to-pink-500"
+      }
+    ],
+    "custom": {
+      "title": "Need a custom solution?",
+      "description": "Contact our sales team for a custom plan tailored to your specific needs",
+      "cta": "Contact Sales"
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Your Career Journey?",
+    "description": "Join thousands of job seekers who have optimized their career search with our platform.",
+    "button": "Get Started Today"
+  },
+  "footer": {
+    "company": "COMPANY",
+    "companyLinks": [
+      { "label": "About Us", "url": "/about" },
+      { "label": "Team", "url": "/team" },
+      { "label": "Careers", "url": "/careers" },
+      { "label": "Blog", "url": "/blog" }
+    ],
+    "product": "PRODUCT",
+    "productLinks": [
+      { "label": "Features", "url": "/features" },
+      { "label": "Pricing", "url": "/pricing" },
+      { "label": "Integrations", "url": "/integrations" },
+      { "label": "Roadmap", "url": "/roadmap" }
+    ],
+    "resources": "RESOURCES",
+    "resourcesLinks": [
+      { "label": "Documentation", "url": "/docs" },
+      { "label": "Guides", "url": "/guides" },
+      { "label": "API", "url": "/api" },
+      { "label": "Support", "url": "/support" }
+    ],
+    "legal": "LEGAL",
+    "legalLinks": [
+      { "label": "Terms", "url": "/terms" },
+      { "label": "Privacy", "url": "/privacy" },
+      { "label": "Cookies", "url": "/cookies" }
+    ],
+    "contact": {
+      "title": "CONTACT",
+      "email": "contact@atoz.com",
+      "phone": "(+1) 555-123-4567"
+    },
+    "copyright": "© 2025 AtoZ. All Rights Reserved."
+  }
+}
